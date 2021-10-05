@@ -1,0 +1,86 @@
+<!--Nama : Romaita Maria Simaibang-->
+<!--Nim  : 119140039---------------->
+<!--Kelas Rc------------------------>
+<!DOCTYPE html>
+<html lang="en">
+    <header
+        <meta charset="UTF-8">
+        <title>"Pendaftaran Mahasiswa Baru</title>
+        <style type="text/css">
+            .container {
+                width: 65%;
+                margin: auto;
+                background-color: #0f221c87;
+                color: black;
+            }
+            .tulisan {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                padding-right: 20px;
+            }
+            table {
+                margin: auto;
+            }
+            .table td{
+                padding-bottom: 5px;
+            }
+            .input{
+                border-radius: 70px;
+            }
+            .submit{
+                padding: 5px 20px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold ;
+                color: black;
+            }
+    </style>
+    </header>
+
+    <body style="background-color: lightblue">
+        <form action="nama_pendaftar.php" method="GET"> 
+        <div class="container">
+            <div class="tulisan">
+                <div class="input">
+                    <div class="submit">
+            <h3>Form Pendaftaran Mahasiswa </h3> 
+            <table class="table">
+               <td><label>Nama Lengkap : </label></td>
+                <td><input type="text" name="nama_pengirim"></td>
+            <br>
+            <tr>
+                <td><label>Tempat Lahir : </label></td>
+                <td><input type="text" name="tempat_lahir"></td>
+            </tr>
+            <tr>
+                <td><label>Tanggal Lahir : </label></td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td><label>Program Studi : </label></td>
+                <td><input type="text" name="program_studi"></td>
+            </tr> 
+            <tr>
+                <td><label>Jenis Kelamin :</label></td>
+                <td><input type="radio" name="jenis_kelamin"> Laki-laki</td>
+                <td><input type="radio" name="jenis_kelamin"> Perempuan</td>
+            </tr> 
+                <td><label>Alamat :</label></td>
+                <td><textarea cols="22" rows="3"></textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label> No Hp : </label> </td>
+                <td><input type="number" name="no_hp"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Kirim"></td>
+            </tr>
+        </form>
+  
+    </div>
+
+</div>
+</div>
+</div>
+
+        
